@@ -39,4 +39,4 @@ jobs:
           python-version: "3.11.6"
       - name: build
         run: |
-          python main.py
+          python3 main.py
