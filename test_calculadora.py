@@ -4,8 +4,8 @@ from main import Operacao
 class testcalculadora(unittest.TestCase):
     def testar_calculadora(self):
         # Teste 1: Soma
-        resultado_soma = Operacao.calcular('soma', 5, 3)
-        self.assertEqual(resultado_soma, 8, f"Erro no teste de soma. Resultado esperado: 8, Resultado obtido: {resultado_soma}")
+        resultado_soma = Operacao.calcular('soma', 10, 3)
+        self.assertEqual(resultado_soma, 13, f"Erro no teste de soma. Resultado esperado: 8, Resultado obtido: {resultado_soma}")
 
         # Teste 2: Subtração
         resultado_subtracao = Operacao.calcular('subtracao', 8, 2)
