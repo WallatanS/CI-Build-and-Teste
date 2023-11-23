@@ -2,7 +2,7 @@ class Operacao:
     @staticmethod
     def calcular(operacao, num1, num2):
         if operacao == 'soma':
-            resultado = num1 + num1
+            resultado = num1 + num2
         elif operacao == 'subtracao':
             resultado = num1 - num2
         else:
