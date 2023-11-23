@@ -33,3 +33,6 @@ jobs:
       - name: Test with pytest
         run: |
           pytest test_calculadora.py
+      - name: Build
+        run: |
+          pytest main.py
