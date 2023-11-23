@@ -1,3 +1,6 @@
+import unittest
+from calculadora import Operacao
+
 class testcalculadora(unittest.TestCase):
     def testar_calculadora(self):
         # Teste 1: Soma
