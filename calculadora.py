@@ -9,7 +9,7 @@ class Operacao():
             print("Operação inválida. Escolha entre 'soma' e 'subtracao'.")
         return resultado
     # Exemplos de uso:
-    print("Soma de 5 e 3:", calcular('soma', 5, 3))
+    print("Soma de 5 e 3:", calcular('soma', 4, 3))
     print("Subtração de 8 e 2:", calcular('subtracao', 8, 2))
 
 
