@@ -1,4 +1,5 @@
-class Operacao():
+class Operacao:
+    @staticmethod
     def calcular(operacao, num1, num2):
         if operacao == 'soma':
             resultado = num1 + num2
