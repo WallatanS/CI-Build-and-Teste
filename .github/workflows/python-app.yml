@@ -39,8 +39,4 @@ jobs:
           python-version: "3.11.6"
       - name: build
         run: |
-          source venv/bin/activate
-          python -m pip install --upgrade pip
-          pip install flake8 pytest
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           python main.py
